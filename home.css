@@ -88,20 +88,25 @@ main h2{
     line-height: 1.4em;
  }
  div.maps{
-    background-color: #2f975c;
+    background-color: #1a5c37;
     margin-bottom: 30px;
-    margin-top: 0px;
+   margin-top: 0px;
+   margin-right: -20px;
+   margin-bottom: 0px;
     margin-left: -20px;
+    padding: 20px;
     padding-bottom: 50%;
-    position: relative;
- }
- div.maps > iframe{
-    position: absolute;
+    position:relative;
+    
+}
+div.maps > iframe{
+    position:absolute;
     top: 5%;
+    bottom: 5%;
     left: 5%;
-    width: 90%;
-    right: 90%;
- }
+    width:90% ;
+    height: 90%;
+}
  footer{
     text-align: center;
     background-color: var(--cor4);
